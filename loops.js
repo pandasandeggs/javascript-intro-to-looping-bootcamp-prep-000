@@ -21,7 +21,7 @@ function whileLoop(countdown){
 	return 'done';
 }
 
-var thing = [0,1,2];
+var thing = [0,2,4,6];
 
 function doWhileLoop(array){
 	do{

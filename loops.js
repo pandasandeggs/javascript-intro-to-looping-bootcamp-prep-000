@@ -24,6 +24,9 @@ function whileLoop(countdown){
 var thing = [0,2,4,6];
 
 function doWhileLoop(array){
+  function maybeTrue() {
+  return Math.random() >= 0.5
+}
 	do{
 		array.pop();
 	} while (array.length > 0 && maybeTrue());

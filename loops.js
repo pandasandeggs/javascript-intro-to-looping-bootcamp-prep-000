@@ -21,3 +21,12 @@ function whileLoop(countdown){
 	return 'done';
 }
 
+var thing = [0,1,2];
+
+function doWhileLoop(array){
+	do{
+		array.pop();
+	} while (array.length > 0 && maybeTrue());
+	return array;
+}
+
